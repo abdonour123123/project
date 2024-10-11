@@ -1,0 +1,45 @@
+@media screen and (max-width: 1200px) {
+  .services-content {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  nav {
+    display: none;
+  }
+  .feature-cards {
+    flex-direction: column;
+  }
+
+  .services-cards {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .protofolio-cards {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-text {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  HTML {
+    font-size: 50%;
+  }
+  .section-title h2 {
+    font-size: 3.2rem;
+  }
+  .section-title p {
+    font-size: 1.2rem;
+    margin-top: 0;
+  }
+}
